@@ -312,10 +312,13 @@ activity_data&lt;- read.csv(&quot;activity.csv&quot;)
 </code></pre>
 
 <ul>
-<li><p>Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.</p>
+<li>Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.</li>
+</ul>
 
-<p>Mean for the 5-minute interval will be used to fill the missing values since it has been calculated in dataset &ldquo;mean_steps_interval&rdquo;</p></li>
-<li><p>Create a new dataset &ldquo;new_data&rdquo; that is equal to the original dataset but with the missing data filled in</p></li>
+<p>Mean for the 5-minute interval will be used to fill the missing values since it has been calculated in dataset &ldquo;mean_steps_interval&rdquo;</p>
+
+<ul>
+<li>Create a new dataset &ldquo;new_data&rdquo; that is equal to the original dataset but with the missing data filled in</li>
 </ul>
 
 <pre><code class="r">new_data &lt;- activity_data 

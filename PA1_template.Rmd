@@ -100,7 +100,7 @@ sum(is.na(activity_data))
 
 * Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
 
-  Mean for the 5-minute interval will be used to fill the missing values since it has been calculated in dataset "mean_steps_interval"
+Mean for the 5-minute interval will be used to fill the missing values since it has been calculated in dataset "mean_steps_interval"
 
 * Create a new dataset "new_data" that is equal to the original dataset but with the missing data filled in
 
